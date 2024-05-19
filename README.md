@@ -1,7 +1,8 @@
 # OctaNet-Task-II
 Enhanced To-Do List is a web-based task management application designed to help users efficiently organize and manage their tasks.It allows users to manage their tasks more efficiently by organizing them into different categories and quickly searching for specific tasks.
 
-Features
+Features:
+
 Add Tasks: Users can add new tasks with a description and assign them to a category.
 Edit Tasks: Users can edit existing tasks to update their descriptions.
 Delete Tasks: Users can delete tasks they no longer need.
@@ -10,17 +11,16 @@ View and Categorize Tasks: Tasks are organized into categories, and users can fi
 Custom Categories: Users can create their own categories for better organization.
 Search Tasks: Users can search for specific tasks by entering keywords in the search bar.
 
-Usage
+Usage:
 
 Clone the repository to your local machine:
 bash
-Copy code
-git clone https://github.com/your_username/to-do-list.git
+Copy code $git clone https://github.com/your_username/to-do-list.git
 Open the index.html file in your web browser.
 
 Start adding, editing, and managing your tasks using the provided interface.
 
-Technologies Used
+Technologies Used:
 HTML
 CSS
 JavaScript
