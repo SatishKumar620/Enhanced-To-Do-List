@@ -1,0 +1,136 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a1a1a; /* Dark gray background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #2b2b2b; /* Slightly lighter gray for the container */
+    padding: 60px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+    width: 600px;
+    margin: 50px auto;
+}
+
+h1 {
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold; /* Bold font for the title */
+}
+
+input[type="text"], select {
+    padding: 15px;
+    margin-right: 10px;
+    border: 1px solid #555; /* Darker border color */
+    border-radius: 8px;
+    width: calc(100% - 140px);
+    font-size: 16px;
+    background-color: #444; /* Darker input background */
+    color: #fff; /* Text color */
+}
+
+input[type="text"]#task-category {
+    width: calc(100% - 200px);
+}
+
+select {
+    width: 150px;
+}
+
+button {
+    padding: 15px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 30px;
+}
+
+.filters button {
+    padding: 10px 15px;
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.filters button:hover {
+    background-color: #5a6268;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px 20px;
+    background-color: #333; /* Darker box color */
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+li .task-text {
+    flex: 1;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+li .task-category {
+    font-size: 14px;
+    margin-right: 10px;
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: #fff;
+    font-weight: bold; /* Bold font for the category labels */
+}
+
+/* Different background colors for each category */
+li[data-category="work"] .task-category { background-color: #007bff; }
+li[data-category="personal"] .task-category { background-color: #ffc107; }
+li[data-category="health"] .task-category { background-color: #28a745; }
+li[data-category="home"] .task-category { background-color: #dc3545; }
+li[data-category="social"] .task-category { background-color: #17a2b8; }
+li[data-category="miscellaneous"] .task-category { background-color: #6c757d; }
+
+li button {
+    padding: 10px 15px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+li button.edit {
+    background-color: #ffc107;
+}
+
+li button.up, li button.down {
+    background-color: #007bff;
+}
