@@ -15,7 +15,7 @@ Usage:
 
 Clone the repository to your local machine:
 bash
-Copy code $git clone https://github.com/your_username/to-do-list.git
+Copy code git clone <code>https://github.com/SatishKumar620/OctaNet-Task-II.git</code?
 Open the index.html file in your web browser.
 
 Start adding, editing, and managing your tasks using the provided interface.
