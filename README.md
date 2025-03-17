@@ -15,7 +15,7 @@ Usage:
 
 Clone the repository to your local machine:
 bash
-Copy code <code> git clone https://github.com/SatishKumar620/Enhanced To-Do List.git</code>
+Copy code <code> git clone https://github.com/SatishKumar620/Enhanced-To-Do-List.git</code>
 Open the index.html file in your web browser.
 
 Start adding, editing, and managing your tasks using the provided interface.
